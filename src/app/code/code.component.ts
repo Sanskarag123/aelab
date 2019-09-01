@@ -9,7 +9,7 @@ import { BackendService } from '../backend.service';
 export class CodeComponent implements OnInit {
 
   constructor(private back:BackendService) { }
-  public requested={}
+  public requested={'ques':''}
   public code:string
 
   ngOnInit() {

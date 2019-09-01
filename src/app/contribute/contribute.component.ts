@@ -11,7 +11,8 @@ export class ContributeComponent implements OnInit {
   constructor(private back:BackendService) { }
  public userdata={"ques":'','code':''}
  public code=null
- public user={}
+ public user={'name':'',
+'password':''}
  public logins=null
  public p=false
  
